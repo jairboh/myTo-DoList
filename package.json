@@ -5,7 +5,12 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview", 
+    "postinstall": "npm run build",
+    "start": "node server.js"
   },
   "dependencies": {
     "boostrap": "^2.0.0",
